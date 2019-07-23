@@ -4,13 +4,11 @@ end
 
 
 def shipping_manifest
-  # set a variable called `the_manifest`, equal to a hash
   the_manifest = {
                   "whale bone corsets" => 5,
                   "oil paintings" => 3,
                   "porcelain vases" => 2
                  }
-  return the_manifest["oil paintings"]
 end
 
 
